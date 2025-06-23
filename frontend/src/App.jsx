@@ -14,7 +14,7 @@ const[prediction,setPrediction]=useState("");
 
 
     try{
-    const response=await fetch('/api/predict',{
+    const response=await fetch('https://backend-email-spam.onrender.com/predict',{
         method:'POST',
           headers: {
           "Content-Type": "application/json",

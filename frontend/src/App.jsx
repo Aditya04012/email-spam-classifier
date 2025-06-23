@@ -34,7 +34,7 @@ const[prediction,setPrediction]=useState("");
   }
   return (
     <div className='container'>
-     <h1>Email / SMS Spam Detection</h1>
+     <h1>Email Spam Classifier</h1>
      <h7>Enter Your Message</h7>
      <textarea className='textarea' onChange={(e)=>setmessage(e.target.value)} placeholder='Enter Your message here'></textarea>
       <button onClick={submit}>  {loading ? "Predicting..." : "Predict"}</button>

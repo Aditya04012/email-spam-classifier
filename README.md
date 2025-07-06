@@ -129,14 +129,6 @@ All dependencies are listed in backend/requirements.txt and frontend/package.jso
 Feel free to fork, improve, and open a PR.  
 Suggestions are welcome!
 
----
-
-📜 License
-
-MIT License — see LICENSE.
-
----
-
 🙌 Acknowledgements
 
 - FastAPI

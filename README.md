@@ -26,24 +26,20 @@ The app allows users to input email text and instantly see whether it’s classi
 ---
 
 🗂️ Project Structure
-
-email-spam-classifier/
-│
+ email-spam-classifier/
 ├── backend/
-│   ├── app.py           # FastAPI app
-│   ├── spam.csv         # Training script
-│   ├── requirements.txt # Backend dependencies
-│
+│   ├── app.py            # FastAPI app
+│   └── spam.csv          # Training script
+├── requirements.txt      # Backend dependencies
 ├── frontend/
 │   ├── public/
 │   ├── src/
-│   │   ├── App.js       # React main app
-│   │   ├── components/  # UI components
-│   ├── package.json     # Frontend dependencies
-│
-├── README.md            # Project documentation
-│── Notebook.ipynb        # Py notebook
----
+│   │   ├── App.js        # React main app
+│   │   └── components/   # UI components
+│   └── package.json      # Frontend dependencies
+├── README.md             # Project documentation
+└── Notebook.ipynb        # Py notebook
+
 
 ⚙️ Installation & Setup
 

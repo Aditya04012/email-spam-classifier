@@ -9,7 +9,7 @@ A full-stack Email Spam Classifier built with:
 
 The app allows users to input email text and instantly see whether it’s classified as Spam or Not Spam.
 
-![App Screenshot](Screenshot 2025-07-06 173809.png)
+![App Screenshot](./email_classifer.png)
 
 
 ---
